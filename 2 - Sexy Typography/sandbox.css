@@ -1,0 +1,40 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+   .shadow-typo
+   {
+	position:relative;
+  display:inline-block;
+  font-size:2em;
+  text-transform:uppercase;
+  color:#00b3b4;
+  text-shadow:3px 3px 0px #e7eef1,8px 8px 0px rgba(0,0,0,0.1);
+   }
+
+   .threedee-typo
+	{
+
+	font-size:4rem;
+	  text-transform:uppercase;
+	  color:#f2395a;
+	  -webkit-transform: skew(-5deg,-5deg) rotate(5deg);
+	  transform:skew(-5deg,-5deg) totate(5deg);
+	  -webkit-transform-origin:center center;
+	  transform-origin:center center;
+	  text-shadow:  1px 1px hsl(349, 87%, 44%),
+	                2px 2px hsl(349, 87%, 44%),
+	                3px 3px hsl(349, 87%, 44%),
+	                4px 4px hsl(349, 87%, 44%),
+	                5px 5px hsl(349, 87%, 44%),
+	                6px 6px hsl(349, 87%, 44%),
+	                7px 7px hsl(349, 87%, 44%),
+	                8px 8px hsl(349, 87%, 44%),
+	                9px 9px hsl(349, 87%, 44%),
+	                10px 10px hsl(349, 87%, 35%),
+	                11px 11px hsl(349, 87%, 32%),
+                12px 12px hsl(349, 87%, 30%),
+                13px 13px rgba(0,0,0,0.5);
+   }
